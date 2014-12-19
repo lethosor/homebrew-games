@@ -2,9 +2,9 @@ require 'formula'
 
 class DwarfFortress < Formula
   homepage 'http://www.bay12games.com/dwarves/'
-  url 'http://www.bay12games.com/dwarves/df_40_18_osx.tar.bz2'
-  version '0.40.18'
-  sha1 'f048cffc93bdc6f031c3574b858f1847b61f810f'
+  url 'http://www.bay12games.com/dwarves/df_40_20_osx.tar.bz2'
+  version '0.40.20'
+  sha1 '0fbbd795728a5d86d4d5c9b17b9ab62780fea6be'
 
   def install
     (bin+'dwarffortress').write <<-EOS.undent
